@@ -93,7 +93,7 @@ namespace Encriptar
                     int[] b = new int[5];
                     b[i % 5] = resultado;
                     //mostrar el resultado
-                    Console.WriteLine(b[i % 5] + " ");
+                    Console.Write(b[i % 5] + " ");
 
                 }
             }
@@ -121,7 +121,7 @@ namespace Encriptar
                     for (int i = 0; i < numeros.Length; i++)
                     {
                         posicion = numeros[i] / a[i % 5];
-                        Console.WriteLine(Convert.ToChar(posicion + 64));
+                        Console.Write(Convert.ToChar(posicion + 64));
                     }
                 }
                 //mensaje de error si el usuario ingresa un valor que no sea un numero
