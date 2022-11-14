@@ -16,7 +16,7 @@ namespace Encriptar
             //siclo para no dejar de mostrar el menu hasta que el usuario ingrese la opcion 3
             while (opcion != 3)
             {
-                Console.WriteLine("Bienvenido al programa de encriptacion");
+                Console.WriteLine("\nBienvenido al programa de encriptacion");
                 Console.WriteLine("1. Encriptar texto");
                 Console.WriteLine("2. Desencriptar texto");
                 Console.WriteLine("3. Salir");
